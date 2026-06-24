@@ -29,6 +29,7 @@ def export_free_openrouter_models(output_dir="models/free_models"):
                         "id": model.get("id"),
                         "name": model.get("name"),
                         "context_length": model.get("context_length"),
+                        # "benchmarks": model.get("benchmarks", {}),
                     }
                 )
 
